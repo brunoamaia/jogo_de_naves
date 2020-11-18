@@ -85,11 +85,11 @@ body {
 
 .anima2 {
   background-image:url(../src/imgs/inimigo1.png);
-  animation: play .5s steps(2) infinite;
-  -webkit-animation: play .5s steps(2) infinite;
-  -moz-animation: play .5s steps(2) infinite;
-  -ms-animation: play .5s steps(2) infinite;
-  -o-animation: play .5s steps(2) infinite; 
+  animation: play .3s steps(2) infinite;
+  -webkit-animation: play .3s steps(2) infinite;
+  -moz-animation: play .3s steps(2) infinite;
+  -ms-animation: play .3s steps(2) infinite;
+  -o-animation: play .3s steps(2) infinite; 
 }
 
 @keyframes play {
@@ -117,12 +117,12 @@ body {
 
 .anima3 {
   background-image:url(../src/imgs/amigo.png);
-  animation:play2 .9s steps(12) infinite;
+  animation:play2 1.2s steps(12) infinite;
 
-  -webkit-animation: play2 .9s steps(12) infinite;
-  -moz-animation: play2 .9s steps(12) infinite;
-  -ms-animation: play2 .9s steps(12) infinite;
-  -o-animation: play2 .9s steps(12) infinite;
+  -webkit-animation: play2 1.2s steps(12) infinite;
+  -moz-animation: play2 1.2s steps(12) infinite;
+  -ms-animation: play2 1.2s steps(12) infinite;
+  -o-animation: play2 1.2s steps(12) infinite;
 }
 @keyframes play2 {
   from {background-position:0px;}
